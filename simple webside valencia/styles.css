@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+img {
+    width: 500px;
+    border-radius: 35px;
+    padding: 10px;
+    border: 2px solid gray;
+    box-shadow: 2px -1px 7px 3px rgb(196, 194, 194);
+    background-color: rgb(238, 238, 238);
+}
+
+body {
+    width: 800px;
+    max-width: 1024px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.sun {
+    color: rgb(235, 125, 0);
+    padding: 5px;
+    font-size: 25px;
+}
+
+.umbrella {
+    color: rgb(235, 125, 0);
+    padding: 5px;
+    font-size: 25px;
+}
+
+.food {
+    color: red;
+    font-size: 25px;
+    padding-left: 10px;
+    
+}
+
+.main__lists {
+    display: flex;
+    gap: 100px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.nav {
+    background-color: rgb(90, 87, 248);
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-family: 'Lobster', cursive;
+}
+
+
+#header>nav>ul>li a {
+    color: rgb(211, 208, 208);
+    text-decoration: none;
+    border-radius: 12px;
+
+}
+
+#header>nav>ul>li a:hover {
+    color: red;
+
+}
+
+#footer>nav>ul>li a {
+    color: rgb(211, 208, 208);
+    text-decoration: none;
+
+}
+
+#footer>nav>ul>li a:hover {
+    color: red;
+
+}
+
+#main {
+    background-color: rgb(248, 248, 248);
+    padding-left: 15%;
+    border-radius: 15px;
+    border: 1px solid rgb(231, 226, 226);
+    box-shadow: -1px 1px 8px 7px gainsboro;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: gray;
+    font-size: 18px;
+    word-spacing: 2px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.information {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#main>img:nth-child(11) {
+    margin-bottom: 15px;
+}
+
+.information:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.bright {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(211, 154, 48);
+}
+
+.more_photos {
+    border: 3px solid rgb(157, 163, 157);
+    margin: 120px;
+    border-radius: 25px;
+    background-color: rgb(90, 87, 248);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(211, 208, 208);
+    padding: 5px 10px;
+}
+
+.more_photos:hover {
+    color: red;
+}
+
+.information {
+    border: 3px solid rgb(157, 163, 157);
+    border-radius: 25px;
+    background-color: rgb(90, 87, 248);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(211, 208, 208);
+    padding: 5px 10px;
+
+}
+
+#main>p:nth-child(14)>a {
+    margin-left: 40px;
+}
