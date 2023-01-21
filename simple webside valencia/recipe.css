@@ -1,8 +1,7 @@
 body {
     background-color: azure;
-    width: 800px;
-    margin: 10px 40px;
-    padding: 10px 40px;
+    margin: 20px 40px;
+    padding: 20px 40px;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -23,9 +22,10 @@ body {
     color: greenyellow;
 }
 
-h3{
+h3 {
     padding-top: 10px;
 }
+
 #back {
 
     border: 2px solid black;
@@ -33,7 +33,7 @@ h3{
     text-decoration: none;
     font-size: 25px;
     padding: 5px 15px 5px 0px;
-    background-color:  rgb(13, 146, 146);
+    background-color: rgb(13, 146, 146);
     color: red;
     font-weight: bold;
 }
@@ -47,6 +47,12 @@ h3{
     background-color: rgb(166, 236, 236);
     margin: 0px;
     padding: 0px;
+    text-align: center;
+
+}
+
+.header h1 {
+    font-size: 40px;
 }
 
 span,
@@ -65,7 +71,7 @@ img {
     box-shadow: 2px 1px 20px gray;
     background-color: white;
     border-radius: 10px;
-    
+
 }
 
 .preparation {
@@ -73,9 +79,6 @@ img {
     margin: 20px;
 }
 
-body > main > article.ingredents > ul > li{
-    padding-left: 20px;
-}
 
 .footer {
     font-size: 30px;
@@ -113,25 +116,40 @@ p {
 main {
     background-color: rgb(252, 233, 233);
     border-radius: 10px;
+    font-size: 30px;
+    line-height: 1.3;
 }
 
 .ingredents {
     padding: 5px;
 }
 
-i{
+i {
     color: red;
     padding-left: 10px;
 }
 
-span{
+span {
     color: rgb(36, 36, 250);
+    font-size: 40px;
 }
 
-.preparation{
+.preparation {
     padding-bottom: 5px;
 }
 
-.more_photos .p1{
-    margin-bottom: 10px;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.more_photos {
+    display: flex;
+    margin: 10px 20px;
+}
+
+body>section {
+    text-align: center;
 }

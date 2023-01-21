@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
+
+
 body {
-
-    display: grid;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
     background-color: rgb(197, 212, 207);
+    padding: 50px;
+}
 
+.list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-columns: minmax(0, 1fr);
+    background-color: rgb(197, 212, 207);
+    align-items: center;
+    justify-items: stretch;
+    padding-bottom: 50px;
 }
 
 
@@ -27,9 +32,9 @@ h1,
 h2 {
     color: red;
     letter-spacing: 5px;
-    font-size: 44px;
+    font-size: 64px;
     font-family: 'Lobster', cursive;
-    padding: 20px 110px;
+    padding: 40px 110px;
     border: 2px solid rgb(99, 89, 89);
     margin: 30px 20px;
     background-color: rgb(240, 231, 231);
@@ -38,7 +43,7 @@ h2 {
     margin-bottom: 50px;
 }
 
-h1{
+h1 {
     padding-left: 210px;
 }
 
@@ -65,6 +70,18 @@ p {
 
 }
 
-h2{
+h2 {
     padding-left: 160px;
+}
+
+body {
+    text-align: center;
+    margin: 40px;
+}
+
+h1,
+h2 {
+    display: inline;
+    padding: 30px;
+    margin: 30px;
 }

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 img {
-    width: 500px;
     border-radius: 35px;
     padding: 10px;
     border: 2px solid gray;
@@ -10,45 +10,48 @@ img {
 }
 
 body {
-    width: 800px;
-    max-width: 1024px;
+    line-height: 1.35;
+    letter-spacing: 1.5;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
-    margin: 10px;
+    padding: 25px;
+    margin: 25px;
 
 }
 
 .sun {
     color: rgb(235, 125, 0);
     padding: 5px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .umbrella {
     color: rgb(235, 125, 0);
     padding: 5px;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .food {
     color: red;
-    font-size: 25px;
+    font-size: 35px;
     padding-left: 10px;
-    
+
 }
 
 .main__lists {
+    font-size: 50px;
     display: flex;
-    gap: 100px;
+
     margin: 10px;
     padding: 10px;
+    justify-content: space-around;
 
 }
 
 .nav {
     background-color: rgb(90, 87, 248);
-    font-size: 20px;
-    border: 1px solid black;
+    font-size: 40px;
+    border: 2px solid black;
     border-radius: 12px;
     font-family: 'Lobster', cursive;
 }
@@ -78,8 +81,10 @@ body {
 }
 
 #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(248, 248, 248);
-    padding-left: 15%;
     border-radius: 15px;
     border: 1px solid rgb(231, 226, 226);
     box-shadow: -1px 1px 8px 7px gainsboro;
@@ -87,27 +92,28 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 75px;
     font-weight: bold;
     padding: 10px;
     margin-top: 10px;
-    
+    text-shadow: -1px 7px 6px rgb(216, 206, 206);
+
 }
 
 p {
     font-family: Helvetica, sans-serif;
     color: gray;
-    font-size: 18px;
+    font-size: 28px;
     word-spacing: 2px;
     padding: 10px;
     margin: 10px;
-    
+
 }
 
 .information {
     text-decoration: none;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 45px !important;
+    padding: 10px 60px;
 }
 
 #main>img:nth-child(11) {
@@ -121,20 +127,20 @@ p {
 
 .bright {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(211, 154, 48);
 }
 
 .more_photos {
     border: 3px solid rgb(157, 163, 157);
-    margin: 120px;
-    border-radius: 25px;
+
+    border-radius: 45px;
     background-color: rgb(90, 87, 248);
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 45px;
     color: rgb(211, 208, 208);
-    padding: 5px 10px;
+    padding: 10px 60px;
 }
 
 .more_photos:hover {
@@ -147,12 +153,16 @@ p {
     background-color: rgb(90, 87, 248);
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 45px;
     color: rgb(211, 208, 208);
     padding: 5px 10px;
 
 }
 
-#main>p:nth-child(14)>a {
-    margin-left: 40px;
+#main > img:nth-child(4){
+    width: 50%;
+}
+
+#main > img:nth-child(11){
+    width: 50%;
 }
