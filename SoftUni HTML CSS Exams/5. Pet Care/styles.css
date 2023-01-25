@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: Poppins, cursive;
+    max-width: 2050px;
+    text-shadow: 0px 3px 3px rgb(194, 188, 188);
+
+}
+
+header>section>img {
+    margin-left: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+
+body>header>nav>ul li a {
+    text-decoration: none;
+}
+
+body>header>nav>ul li a:hover {
+    color: red;
+}
+
+body>header>nav>ul {
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    color: #072454;
+    margin-right: 90px;
+}
+
+body>header>nav {
+    padding-top: 10px;
+}
+
+.section1 {
+    border-top: 5px solid rgb(54, 51, 51);
+    display: flex;
+    position: relative;
+    background: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 900px;
+
+}
+
+.section1 img {
+    position: relative;
+    top: 175px;
+    right: 200px;
+}
+
+
+.art1 {
+    text-align: center;
+    padding-left: 200px;
+    color: white;
+    text-align: left;
+}
+
+.art1 h1 {
+    font-size: 65px;
+    padding-bottom: 10px;
+}
+
+.art1 h2 {
+    font-size: 77px;
+    font-weight: bold;
+
+}
+
+.art1 p {
+    font-size: 20px;
+    padding-top: 30px;
+    line-height: 1cm;
+
+}
+
+.art1 button {
+    font-size: 20px;
+    margin-top: 50px;
+    color: orangered;
+    background-color: white;
+    border-radius: 35px;
+    padding: 15px 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.art1 button:hover {
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    transition: 200ms linear;
+
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section2>h1 {
+    font-size: 50px;
+    margin-top: 150px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.section2>p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 10px 10px 100px 10px;
+    margin: 0px 200px;
+}
+
+.section3 .sect3-1,
+.sect3-2,
+.sect3-3 {
+    text-align: center;
+    border: 1px solid orangered;
+    box-shadow: 0px 5px 6px rgb(241, 131, 41);
+}
+
+.section3 .sect3-1>h1,
+.sect3-2>h1,
+.sect3-3>h1 {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.section3 .sect3-1>p,
+.sect3-2>p,
+.sect3-3>p {
+    font-size: 18px;
+    padding-bottom: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+
+.section3 .sect3-1>img,
+.sect3-2>img,
+.sect3-3>img {
+    margin-top: 45px;
+    padding: 30px;
+    background: url("images/service-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 50px 200px;
+    align-items: center;
+}
+
+.h1-cat {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.h2-cat {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 40px;
+
+}
+
+.p-cat {
+    font-size: 20px;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.btn-cat {
+    background-color: orangered;
+    padding: 20px 55px;
+    font-size: 22px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn-cat:hover {
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    transition: 200ms linear;
+
+}
+
+.section5 {
+    background: url("images/cats-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 550px;
+
+}
+
+.s5-h1 {
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 170px;
+    font-weight: bold;
+}
+
+.s5-btn {
+    margin-top: 60px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 130px;
+    color: orangered;
+    font-weight: bold;
+}
+
+.s5-btn:hover {
+    color: red;
+    cursor: pointer;
+    background-color: black;
+    transition: 200ms linear;
+}
+
+.s5-h1-p2 span {
+    padding-left: 15px;
+    font-size: 20px;
+    letter-spacing: 0.05cm;
+}
+
+.s5-s-2 {
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+
+    margin: 100px;
+}
+
+footer .f1 {
+    font-size: 18px;
+}
+
+footer .f1 h1 {
+    font-weight: bold;
+    font-size: 23px;
+
+}
+
+footer .f1 h1 {
+    padding-bottom: 35px;
+}
+
+footer .f1 a {
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+}
+
+footer .f1 a:hover {
+    color: red;
+}
+
+.f2 p {
+    padding-top: 25px;
+}
+
+header,
+main,
+footer {
+    overflow: hidden;
+}

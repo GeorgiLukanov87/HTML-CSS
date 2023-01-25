@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px;
+}
+
+body>header>p {
+    font-size: 33px;
+}
+
+header ul li {
+    display: inline;
+    font-size: 20px;
+
+}
+
+header ul .item5 {
+    padding-left: 35px;
+}
+
+.span-time {
+    color: #34B1C4;
+
+}
+
+.span-home {
+    border-bottom: 4px solid #34B1C4;
+    padding-bottom: 5px;
+}
+
+body>main>section.sectio1>img {
+    width: 1680px;
+
+}
+
+/* MAIN */
+main {
+    position: relative;
+}
+
+/* SECTION 1 */
+.black-box {
+    position: absolute;
+    background-color: black;
+    width: 600px;
+    height: 250px;
+    opacity: 0.6;
+    top: 21.5%;
+    left: 12.5%;
+
+}
+
+.text-in-black-box {
+    position: absolute;
+    color: white;
+    top: 21%;
+    left: 14%;
+    font-size: 50px;
+    padding-top: 30px;
+    line-height: 1.7cm;
+}
+
+.text-in-black-box p:last-child {
+    position: absolute;
+    background-color: #008CBA;
+    border-radius: 30px;
+    font-size: 28px;
+    display: inline;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+
+
+}
+
+/* SECTION 2 */
+.section2 {
+    height: 380px;
+    text-align: center;
+
+}
+
+.section2 h1 {
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.section2 p {
+    font-size: 20px;
+    padding: 0px 150px;
+    line-height: 0.7cm;
+    margin-top: 70px;
+}
+
+.section2 .last-p {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-color: #454545;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 35px;
+}
+
+.underline1 {
+    border-bottom: 4px solid #34B1C4;
+    padding-bottom: 10px;
+}
+
+/* SECTION 3 */
+.section3 {
+    color: #454545;
+    text-align: center;
+    width: 1680px;
+    background-color: #EEF0F1;
+}
+
+.article2 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 170px;
+
+}
+
+.article1-h1 {
+    font-size: 40px;
+    padding: 50px 0px;
+}
+
+.underline2 {
+    border-bottom: 4px solid #454545;
+    padding-bottom: 7px;
+}
+
+
+body>div>ul>li img {
+    width: 400px;
+}
+
+body>div>ul>li {
+    background-color: white;
+}
+
+body>div {
+    background-color: #EEF0F1;
+    padding-bottom: 40px;
+}
+
+body>div>ul {
+    color: #454545;
+    text-align-last: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    margin-left: 200px;
+    gap: 40px;
+
+
+}
+
+body>div>h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 65px;
+    color: #454545;
+
+
+}
+
+.servi_underline {
+    border-bottom: 4px solid #454545;
+    padding-bottom: 10px;
+}
+
+body>div>ul>li>h2 {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+body>div>ul>li>p {
+    font-size: 18px;
+    padding: 0px 25px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+body>div>ul>li>.last_p {
+
+    background-color: #454545;
+    color: white;
+    display: inline;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    border: none;
+    padding: 13px 27px;
+    font-size: 24px;
+
+}
+
+body>div>ul>li {
+    margin-bottom: 50px;
+}
+
+.subscribe .sub_h4 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subscribe .sub_p {
+    text-align: center;
+    padding: 25px;
+}
+
+.subscribe {
+    background-color: #393F43;
+    color: white;
+    font-size: 20px;
+}
+
+.sub2 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+.el1 {
+    color: #757575;
+    background-color: #545A5E;
+    padding: 10px 450px 10px 10px;
+    border-radius: 6px;
+}
+
+.el2 {
+    background-color: #6BBFFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-left: 3px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2F3539;
+    color: white;
+    font-size: 23px;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-around;
+    line-height: 1cm;
+    padding-top: 40px;
+}
+
+.footer-article4 ul li i {
+    padding: 10px 5px;
+    font-size: 24px;
+}
+
+.footer2 p {
+    background-color: #262B2F;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.sub_underline5 {
+    border-bottom: 3px solid white;
+    padding-bottom: 10px;
+}
+
+.footer2 p .last_span_blue {
+    color: #008C9B;
+}
+
+body, header, footer{
+overflow: auto;
+}

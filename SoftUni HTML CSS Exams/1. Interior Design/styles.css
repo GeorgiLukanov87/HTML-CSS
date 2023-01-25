@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    position: relative;
+    height: 550px;
+    width: 700px;
+    margin: 0px 150px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+/* SECTION ONE */
+.section_one {
+    height: 550px;
+    width: 700px;
+    background-image: url("image/image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.section_one {
+    position: relative;
+}
+
+.article_one {
+    position: absolute;
+    top: 2%;
+    width: 137px;
+    height: 137px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 7px gray;
+    margin-left: 30px;
+    color: #353535;
+    padding-left: 13px;
+
+}
+
+
+.article_two {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(156, 149, 141, 1) 0%, rgba(207, 206, 206, 1) 100%);
+    width: 155px;
+    height: 195px;
+    right: 2.5%;
+    top: 15%;
+    padding: 50px 15px 0px 20px;
+    box-shadow: 3px 2px 9px 3px rgb(167, 166, 166);
+}
+
+body>main>section.section_one>article.article_two>p {
+    color: #FFFFF7;
+}
+
+#icon1 {
+    color: #8B8480;
+    position: absolute;
+    top: 10%;
+    right: 6%;
+
+}
+
+#text1 {
+    text-shadow: 2px 2px gray;
+    font-size: 13px;
+    text-align: right;
+    text-indent: 5%;
+    line-height: 1.15;
+
+}
+
+body>main>section.section_one>article.article_one>h1:nth-child(1),
+h1:nth-child(2) {
+    font-size: 22px;
+    padding-top: 17px;
+
+}
+
+body>main>section.section_one>article.article_one>h1:nth-child(2) {
+    padding-bottom: 15px;
+}
+
+body>main>section.section_one>article.article_one>p {
+    border-top: 1px solid white;
+    display: inline-block;
+}
+
+
+body>main>section.section_one>article.article_one>p {
+    padding-top: 15px;
+    font-size: 11px;
+}
+
+/* SECTION 2 */
+
+.section_two {
+    display: flex;
+    margin-top: -3px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    line-height: 1.2;
+
+}
+
+body>main>section.section_two>article.three>h1:nth-child(1) {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.three {
+    background-color: #F9F7F9;
+}
+
+.four {
+    background-color: #BFB5B2;
+    padding-top: 28px;
+    padding-left: 17px;
+    padding-right: 53px;
+
+}
+
+
+.four>h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body>main>section.section_two>article.four>p:nth-child(even) {
+    padding-bottom: 55px;
+    font-size: 11px;
+    text-transform: uppercase;
+
+}
+
+body>main>section.section_two>article.four>h1:nth-child(odd) {
+    text-transform: uppercase;
+    padding-top: 35px;
+
+}
+
+.contact {
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.three,
+.four {
+    padding: 35px 30px 0px 30px;
+}
+
+.three>p {
+    padding-bottom: 15px;
+}
+
+body>main>section.section_two>article.three>p:nth-child(5) {
+    padding-bottom: 25px;
+}
+
+body>main>section.section_two>article.four>p:nth-child(8) {
+    padding-bottom: 25px;
+}
+
+.btn1,
+.btn2 {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.btn1 {
+    background-color: #BFB6B2;
+    border: none;
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px;
+}
+
+.btn2 {
+    background-color: #6B7B4E;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+i {
+    color: white;
+    background-color: #2F2D2A;
+    border-radius: 100%;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.original {
+    position: absolute;
+    color: #807d7a;
+    font-size: 18px;
+    top: 10%;
+    right: 7%;
+    text-shadow: 2px 1px 2px rgb(68, 67, 67);
+}
+
+
+body>main>section.section_two>article.three>h1.contact {
+    position: relative;
+
+}
+
+body>main>section.section_two>article.three>h1.contact {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}

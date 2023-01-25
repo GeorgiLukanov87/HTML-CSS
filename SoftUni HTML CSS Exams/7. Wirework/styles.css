@@ -1,0 +1,205 @@
+*,
+::after,
+::backdrop {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+
+}
+
+.span1 {
+    font-weight: bold;
+    font-size: 50px;
+    padding-right: 20px;
+
+}
+
+.section1 {
+    align-items: center;
+    display: flex;
+}
+
+.section2 ul{
+    margin-top: 10px;
+}
+
+.section2 ul li a {
+    color: rgb(39, 38, 38);
+    background-color: #F3F3F3;
+    padding: 25px 35px;
+    font-size: 20px;
+
+}
+
+.section1 h1{
+    font-size: 22px;
+}
+
+.section2 ul li a:hover {
+    color: white;
+    background-color: #E94D2B;
+}
+
+.banner {
+    background: url("images/banner.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div1 {
+    background-color: #E94D2B;
+    text-align: center;
+    padding: 80px 200px;
+    color: rgb(233, 231, 231);
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.div2 {
+    display: flex;
+    background-color: #393939;
+    text-align: center;
+    padding: 80px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.div2 article a i {
+    color: white;
+    background-color: #E94D2B;
+    padding: 20px;
+    font-size: 40px;
+
+}
+
+.div2 article a i:hover{
+    color: red;
+    background-color: white;
+    transition: 200ms linear;
+}
+
+.div2 article h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(83, 80, 80);
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.div2 article p {
+    padding-top: 30px;
+    color: #b1afaf;
+    line-height: 1.65;
+    padding-bottom: 30px;
+}
+
+.div3 {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.div3 h2 {
+    font-size: 32px;
+    color: #525252;
+    padding-bottom: 10px;
+}
+
+.div3 p {
+    font-size: 18px;
+    color: #525252;
+    padding-bottom: 25px;
+
+}
+
+.div3 button {
+    color: white;
+    background-color: #1C9673;
+    padding: 18px 45px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.div3 button:hover {
+    color: red;
+    cursor: pointer;
+    background-color: #393939;
+
+}
+
+.div4 {
+    display: flex;
+    background-color: #393939;
+    text-align: center;
+    padding: 50px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.div4 article h2 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.div4 article p {
+    font-size: 18px;
+    color: #918e8e;
+    padding-bottom: 50px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #179A73;
+    padding: 100px 0px;
+    text-align: center;
+    color: rgb(218, 216, 216);
+    letter-spacing: 1px;
+}
+
+footer .last-f {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.div1 span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body > main > div.div1 > p > span.special1{
+    text-decoration: unset;
+    font-weight: bold;
+}
+
+body > header > section.section2 > nav > ul > li:nth-child(1) > a{
+    background-color: #E94D2B;
+}
