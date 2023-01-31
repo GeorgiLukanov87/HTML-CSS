@@ -1,0 +1,48 @@
+@media only screen and (max-width: 600px) {
+    .tm-nav-ul li{
+        font-size: 20px;
+        
+    }
+    .tm-nav-ul {
+        padding-left: 160px;
+    }
+
+
+    .tm-gallery-page{
+        width: 500px;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .tm-cta-section {
+        margin: 0 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tm-cta-section{
+        width: unset;
+    }
+
+    .tm-mb-45{
+        padding-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .tm-footer{
+        font-size: 25px;
+    }
+
+    .m-paging-links{
+        display: flex;
+    }
+
+    body > main > section.tm-paging-links > nav > ul li{
+        width: 150px;
+    }
+
+    .tm-gallery-page-pizza img{
+        width: 300px;
+        max-width: unset;
+    }
+}

@@ -1,0 +1,121 @@
+@media only screen and (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+
+    }
+
+    .nav-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-options li {
+        padding: 2px;
+    }
+
+
+    nav p {
+        padding-left: 40px;
+        padding-bottom: 25px;
+    }
+
+    .trainings {
+        flex-direction: column;
+
+    }
+
+    .instructors-pic {
+        justify-content: center;
+    }
+
+    .classes ul li {
+        flex-basis: 35%;
+
+    }
+
+    .classes ul {
+        justify-content: center;
+        gap: 20px 50px;
+        width: 100%;
+
+    }
+
+    .map {
+        flex: 1 1 45%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .map img {
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+        width: 90vw;
+        height: auto;
+        border: 3px solid black;
+        padding: 1rem;
+    }
+
+    .map:after {
+        display: unset;
+        content: '';
+        padding-top: 70%;
+    }
+
+    .getInTouch {
+        flex-direction: column;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+
+    .getInTouch form input {
+        width: 55vw;
+    }
+
+    #message {
+        width: 55vw;
+    }
+
+    .wrapper {
+        display: inline-block;
+    }
+
+    .site-footer {
+        display: flex;
+    }
+
+    .site-footer .wrapper {
+        display: flex;
+        padding: 1.5rem;
+        /* width: 80%; */
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .site-footer .about {
+        flex: unset;
+    }
+
+    .site-footer .sitemap ul {
+        display: unset;
+        flex-wrap: wrap;
+    }
+
+    .sitemap {
+        padding-right: 300px;
+    }
+
+    .map{
+        padding-left: 22px;
+    }
+
+
+
+
+
+
+}
