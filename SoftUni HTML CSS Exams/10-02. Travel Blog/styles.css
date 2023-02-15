@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gelasio', serif;
+    width: 1920px;
+}
+
+header {
+    background: url("images/map.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+header nav {
+
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+header nav img {
+    width: 100px;
+
+}
+
+header nav div span {
+    padding-right: 20px;
+}
+
+.header-info h1 {
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 4px 3px 5px rgb(27, 27, 27);
+}
+
+.header-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+header nav div span:hover,
+i:hover {
+    cursor: pointer;
+    scale: 1.5;
+    transition: 100ms linear;
+    color: red;
+    text-shadow: black 3px 2px 3px;
+}
+
+.header-info button {
+    background-color: #146594;
+    border: none;
+    font-size: 24px;
+    color: white;
+    padding: 12px 14px;
+    border-radius: 6px;
+    margin-bottom: 150px;
+    margin-top: 25px;
+
+}
+
+.header-info button:hover {
+    cursor: pointer;
+    scale: 1.5;
+    transition: 200ms linear;
+    background-color: rgb(21, 21, 209);
+    box-shadow: 1px 1px 13px 2px rgb(255, 255, 255);
+    color: red;
+}
+
+
+main h1 {
+    font-size: 30px;
+    color: gray;
+    margin-left: 200px;
+    padding: 20px 0px;
+}
+
+.art1 {
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec2 img {
+    width: 50vw;
+    height: 50vh
+}
+
+main {
+    overflow: hidden;
+}
+
+.sec1 img {
+    width: 30vw;
+    height: 100vh;
+}
+
+.art1 h2 {
+    position: absolute;
+
+}
+
+.sec1,
+.sec2 div {
+    position: relative;
+    color: white;
+    font-size: 36px;
+    text-shadow: black 3px 2px 3px;
+}
+
+body>main>article>section.sec2>div:nth-child(1) {
+    font-size: 0;
+}
+
+
+.abs1 {
+    top: 91px;
+    left: 118px;
+
+}
+
+.abs2 {
+    top: -401px;
+    left: 115px;
+}
+
+.abs3 {
+    top: 400px;
+    left: 11px;
+}
+
+footer {
+    width: 100vw;
+    margin-top: 25px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-items: center;
+}
+
+.foot1 nav ul,
+.foot2 nav ul,
+.foot3 nav ul {
+    display: flex;
+    font-size: 25px;
+    color: rgb(221, 213, 213);
+    gap: 20px;
+
+}
+
+footer article nav ul li:hover {
+    cursor: pointer;
+    scale: 1.2;
+    transition: 100ms linear;
+    color: red;
+    text-shadow: black 3px 2px 3px;
+}

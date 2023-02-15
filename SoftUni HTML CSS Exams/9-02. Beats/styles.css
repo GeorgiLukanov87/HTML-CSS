@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    max-width: 1360px;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 0px 50px 100px;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+main .sec1 {
+    display: flex;
+    gap: 50px;
+}
+
+main .sec1 img {
+    width: 500px;
+    height: 500px;
+}
+
+.art1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 5%;
+}
+
+.art1 button {
+    display: inline;
+}
+
+.div-btn {
+    padding-top: 30px;
+
+}
+
+.btn1 {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 13px 33px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.art1 h1 {
+    padding-bottom: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.art1>p {
+    line-height: 1.7;
+}
+
+.sec2 {
+    display: flex;
+    padding: 70px;
+    gap: 130px;
+    margin-top: 100px;
+}
+
+.art4>h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.span1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.art4>h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 65px;
+    padding-bottom: 80px;
+}
+
+.art4>p {
+    line-height: 1.5;
+    padding-bottom: 80px;
+}
+
+.art3 img {
+    width: 400px;
+    height: 400px;
+}
+
+.span2-price {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+.art4 div>button {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 13px 37px;
+    border-radius: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.wrapper1 {
+    display: flex;
+    align-items: center;
+}
+
+.sec3 {
+    position: relative;
+    background-color: #575757;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    gap: 35px;
+}
+
+.a-span a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-span {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.free-span {
+    font-weight: bold;
+}
+
+.logo {
+    position: relative;
+    left: -4%;
+    width: 80px;
+    top: 29px;
+}
+
+.sec4 {
+    display: flex;
+    background-color: #DADADA;
+}
+
+.art6 h1 {
+    color: #333333;
+    font-size: 150px;
+    font-weight: bolder;
+    letter-spacing: -15px;
+    line-height: 1.5;
+    padding-top: 40px;
+
+}
+
+.art6 {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+}
+
+.art6 div h5 {
+    padding-left: 10px;
+    font-size: 40px;
+    color: #333333;
+}
+
+.red-span {
+    color: red;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.wrapper3 {
+    position: relative;
+}
+
+.art6 .wrapper3 img {
+    position: absolute;
+    right: -26px;
+    top: 17px;
+    width: 230px;
+    height: 618px;
+}
+
+footer p {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hover-btn:hover {
+    cursor: pointer;
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    scale: 1.2;
+    transition: 200ms linear;
+
+}
+
+.a-span:hover {
+    cursor: pointer;
+    font-weight: bold;
+    scale: 1.2;
+    transition: 200ms linear;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    color: red;
+textsh: 1px 1px 1px red;
+    font-weight: bold;
+    scale: 1.2;
+    transition: 200ms linear;
+}
