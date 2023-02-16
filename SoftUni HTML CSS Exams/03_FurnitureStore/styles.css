@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: #F93700;
+    padding: 40px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.search-bar a input {
+    width: 40rem;
+    height: 3rem;
+    padding: 0px 10px;
+    margin-left: 30px;
+
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar i {
+    background-color: #CAC3C3;
+    padding: 13px 32px;
+    position: absolute;
+    right: 0px;
+    top: 1px;
+}
+
+/* MAIN */
+main {
+    background-color: #F0E4E4;
+}
+
+main article img {
+    width: 350px;
+    height: 350px;
+    padding-bottom: 15px;
+}
+
+/* MAIN SEC1 */
+.sec1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+    padding-top: 40px;
+    text-align: center;
+    color: gray;
+    padding-bottom: 25px;
+}
+
+.sec1 article div {
+    font-size: 20px;
+}
+
+/* MAIN SEC2 */
+
+.sec2 {
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+.art2 img {
+    width: 91.3%;
+    height: 90%;
+}
+
+.art1 {
+    padding-top: 80px;
+}
+
+.art1 h1 {
+    color: #F93700;
+    font-size: 42px;
+}
+
+.art1 p {
+    color: gray;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.art1 button {
+    background-color: #F93700;
+    color: white;
+    border: none;
+    padding: 18px 22px;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+
+.sec2 {
+    padding-bottom: 30px;
+}
+
+/* MAIN SEC3 */
+.sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #CAC3C3;
+    margin: 0px 8%;
+    gap: 12%;
+    padding: 42px 0px;
+    text-align: center;
+}
+
+.sec3 article img {
+    width: 180px;
+    height: 180px;
+    background-color: #F0E4E4;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+
+.sec3 article div {
+    color: #757575;
+    font-weight: bold;
+    padding: 20px 0px;
+    font-size: 22px;
+
+}
+
+.sec3 article p {
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0E4E4;
+    padding: 30px;
+    color: #757575;
+}
+
+.foot1 ul,
+.foot2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 25px;
+    font-size: 22px;
+}
+
+.bold-li {
+    font-weight: bold;
+}
+
+.date-time {
+    font-size: 14px;
+}
+
+.foot2 ul li i {
+    font-size: 28px;
+}
+
+.foot2 button {
+    background-color: #CAC3C3;
+    border: none;
+    padding: 0.6rem 3.6rem;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+/* HOVERS */
+
+a:hover {
+    cursor: pointer;
+    color: greenyellow;
+    transition: 200ms linear;
+}
+
+button:hover {
+    cursor: pointer;
+    color: greenyellow;
+    transition: 200ms linear;
+    scale: 1.3;
+    background-color: #757575;
+}
+
+.foot2 ul a:hover {
+    cursor: pointer;
+    color: red;
+    transition: 200ms linear;
+    scale: 1.3;
+
+}
+
+.foot1 ul li:hover,
+.hover1:hover,
+.foot2 ul li i:hover {
+    cursor: pointer;
+    color: red;
+    transition: 200ms linear;
+    scale: 1.3;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1430px) {
+    .search-bar a input {
+        width: 20rem;
+        height: 3rem;
+        padding: 0px 10px; 
+    }
+}
+@media only screen and (max-width: 468px) {
+    .search-bar a input {
+        width: 14rem;
+        height: 3rem;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+}
+
+@media only screen and (max-width: 1670px){
+    .art1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .art1 button{
+        width: 70%;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 1670px){
+    .sec1 img{
+        margin-top: 20px;
+    }
+}
