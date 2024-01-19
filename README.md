@@ -1,1 +1,1 @@
-HTML-CSS SoftUni Exercises And Workshops ! And some stuffs :)
+# HTML-CSS SoftUni Exercises And Workshops.
